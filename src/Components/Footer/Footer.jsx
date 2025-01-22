@@ -33,7 +33,7 @@ const Footer = () => {
             <hr className='bottom_hr' />
             <div className="copyright">
                 <p>Copyright &copy; 2024. all rights reserved.</p>
-                <p>Created by Vibzz</p>
+                <p>Made with by Vibzz</p>
             </div>
         </div>
     )
