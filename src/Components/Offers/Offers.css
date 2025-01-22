@@ -1,0 +1,22 @@
+.bulletPoints {
+    background-color: #ffffff;
+    border-left: 6px solid #86b7fe;
+    margin-bottom: 4px;
+    padding-left: 10px;
+}
+
+.offers {
+    font-family: 'Tiro Devanagari Marathi',
+        serif;
+    margin: 70px auto;
+}
+
+.star {
+    color: rgb(27, 166, 29);
+}
+
+@media(max-width:700px) {
+    .offers {
+        margin: 50px auto;
+    }
+}

@@ -1,0 +1,86 @@
+.contactForm {
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e5dbdb;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divider::before,
+.divider::after {
+    flex: 1;
+    content: '';
+    padding: 3px;
+    background-color: burlywood;
+    margin: 5px;
+}
+
+.contactFormHr {
+    margin: 0 0 10px;
+    border: 1px solid #3a4664;
+    width: 100%;
+}
+
+label {
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media(max-width:900px) {
+    .contactForm {
+        max-width: none;
+        width: 80%;
+        gap: 0px;
+    }
+
+    label {
+        font-weight: 500;
+    }
+}
+
+@media(max-width:700) {
+    .contactForm {
+        max-width: none;
+        width: 90%;
+    }
+}

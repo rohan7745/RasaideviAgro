@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+.OurTeam {
+    margin: 40px auto;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divider::before,
+.divider::after {
+    flex: 1;
+    content: '';
+    padding: 3px;
+    background-color: burlywood;
+    margin: 5px;
+}
+
+.imgDiv {
+    position: relative;
+    overflow: hidden;
+}
+
+.OwnerName1 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-weight: 500;
+    font-size: larger;
+    color: #ffffff;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.OwnerName2 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-weight: 500;
+    font-size: larger;
+    color: #ffffff;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.Owner1Contact {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: rgba(237, 232, 226, 0.585);
+    padding: 10px 3px;
+    border-radius: 5px;
+}
+
+.imgDiv a {
+    margin: 4px;
+    color: inherit;
+}
+
+.imgDiv i {
+    font-size: 25px;
+}
+
+.iconsPartition {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.Owner2Contact {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: rgba(237, 232, 226, 0.585);
+    padding: 10px 3px;
+    border-radius: 5px;
+}
+
+@media(min-width:1200px) {
+    .imgDiv {
+        height: 600px;
+    }
+}

@@ -1,0 +1,30 @@
+.aboutUs {
+    font-family: 'Tiro Devanagari Marathi',
+        serif;
+    margin: 30px auto;
+}
+
+.aboutUs .companyName {
+    color: #920c1e;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.companyDetail {
+    font-size: 18px;
+    line-height: 2.5;
+    margin: 25px auto;
+}
+
+.companyMoto {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.card {
+    background: #3b393912;
+}
+
+.aboutUs hr {
+    width: 100%;
+}

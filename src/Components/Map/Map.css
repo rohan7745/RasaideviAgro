@@ -1,0 +1,33 @@
+.mapContainer {
+    overflow: hidden;
+    height: 80vh;
+    padding: 30px 0;
+}
+
+.mapContainer iframe {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.map hr {
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid #545454;
+}
+
+p {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+@media(max-width:700px) {
+    .mapContainer {
+        height: 50vh;
+    }
+
+    hr {
+        width: 300px;
+    }
+}

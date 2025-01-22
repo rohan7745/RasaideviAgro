@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.carouselDiv {
+    /* width: 100%; */
+    position: relative;
+
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: #333;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+    z-index: 1000;
+}
+
+.next {
+    right: 10px;
+    z-index: 1000;
+}
+
+.carouselDiv .slide {
+    position: relative;
+    height: 100vh;
+}
+
+.carouselDiv #CompanyName {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    font-size: 75px;
+    font-family: "Courgette", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(234, 88, 88);
+    background-color: #33333389;
+    padding: 5px 10px;
+}
+
+.carouselDiv .Headline {
+    position: absolute;
+    bottom: 10%;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Tiro Devanagari Marathi',
+        serif;
+}
+
+@media(max-width:1200px) {
+
+    .carouselDiv .slide {
+        height: auto;
+    }
+
+    .carouselDiv #CompanyName {
+        font-size: 65px;
+
+    }
+}
+
+
+@media(max-width:900px) {
+
+    .carouselDiv .slide {
+        height: auto;
+    }
+
+    .carouselDiv #CompanyName {
+        font-size: 55px;
+        bottom: 5%;
+    }
+
+    .carouselDiv .Headline {
+        position: absolute;
+        bottom: 0;
+
+    }
+}
+
+@media(max-width:700px) {
+
+    .carouselDiv .slide {
+        height: auto;
+    }
+
+    .carouselDiv #CompanyName {
+        font-size: 40px;
+        bottom: 0;
+    }
+}
+
+
+
+
+@media(max-width:500px) {
+
+    .carouselDiv .slide {
+        height: auto;
+    }
+
+    .carouselDiv #CompanyName {
+        font-size: 30px;
+    }
+}

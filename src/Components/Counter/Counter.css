@@ -1,0 +1,73 @@
+:root {
+    --main-color: #009144;
+    --border-color: #ACACAC;
+}
+
+.mainDiv {
+    margin: 60px auto;
+    background: #d6f0f0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.counter {
+    color: var(--main-color);
+    font-family: 'Sarabun', sans-serif;
+    width: 210px;
+    padding: 12px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.counter .counter-icon {
+    color: #fff;
+    background: var(--main-color);
+    font-size: 30px;
+    line-height: 40px;
+    width: 60px;
+    height: 60px;
+    text-align: right;
+    padding: 6px 10px 0 0;
+    border-radius: 0 0 0 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.counter .counter-content {
+    padding: 15px 10px;
+    border: 2px solid var(--border-color);
+    border-radius: 13px;
+    box-shadow: 0 0 0 12px #fff, 0 0 35px rgba(0, 0, 0, 0.7);
+}
+
+.counter .counter-value {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.counter h3 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.counter-content span {
+    font-weight: bold;
+}
+
+.visible {
+    font-weight: 700;
+    font-size: larger;
+}
+
+
+@media screen and (max-width:990px) {
+    .counter {
+        margin-bottom: 40px;
+    }
+}
