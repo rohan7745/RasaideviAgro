@@ -19,6 +19,7 @@ const Footer = () => {
             <hr className='logo_hr' />
             <ul className="footer_links">
                 <li onClick={goToTop}><Link to='/'>Home</Link></li>
+                {/*<li onClick={goToTop}><Link to='/products'>Products</Link></li>*/}
                 <li onClick={goToTop}><Link to='/about'>About</Link></li>
                 <li onClick={goToTop}><Link to='/gallery'>Gallery</Link></li>
                 <li onClick={goToTop}><Link to='/contact'>Contact</Link></li>
