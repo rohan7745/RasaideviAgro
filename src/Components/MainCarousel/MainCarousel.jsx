@@ -9,6 +9,7 @@ import img3 from '../Assets/images/Carousel Images/Cs_three.jpg';
 import img4 from '../Assets/images/Carousel Images/Cs_four.jpg';
 import img5 from '../Assets/images/Carousel Images/pro-2.jpg'
 import img6 from '../Assets/images/Carousel Images/six.jpg'
+import img7 from '../Assets/images/Carousel Images/pro-1.jpg'
 
 
 function MainCarousel() {
@@ -52,7 +53,6 @@ function MainCarousel() {
             <Slider {...settings}>
                 <div className="slide">
                     <img src={img6} alt="" className=' img-fluid' /> 
-                    <h5 className='Headline'>SHRI RASAIDEVI AGRO PRODUCER COMPANY LTD, ASANDOLI, TAL-GAGANBAWDA, DIST-KOLHAPUR</h5>
                 </div>
                 <div className="slide">
                     <img src={img1} alt="" className=' img-fluid' />
@@ -73,6 +73,10 @@ function MainCarousel() {
                 <div className="slide">
                     <img src={img4} alt="" className=' img-fluid' />
                     <h2 className='Headline'>कुक्कुटपालन प्रशिक्षण केंद्र</h2>
+                </div>
+                <div className="slide">
+                    <img src={img7} alt="" className=' img-fluid' />
+                    <h2 className='Headline'>गावरान अंडी उपलब्ध</h2>
                 </div>
             </Slider>
 

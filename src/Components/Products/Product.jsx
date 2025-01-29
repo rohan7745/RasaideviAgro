@@ -60,7 +60,7 @@ const Product = () => {
             name: 'Rasaidevi Agro Gavran Feed',
             price: 39.99,
             image: 'https://media.istockphoto.com/id/913457000/photo/close-up-of-granulated-animal-food-texture.jpg?s=612x612&w=0&k=20&c=9CKVCynTFUqoKcexMlqTHsceQrCnJLw5zxvOqYzFfy4=',
-            description: 'Gavran poultry feed is a feed for poultry that comes in pellet or crumb form. It is available in different varieties. ',
+            description: 'Gavran poultry feed is a feed for poultry that comes in pellet or crumb form.',
         },
     ];
 

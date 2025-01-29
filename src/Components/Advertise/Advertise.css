@@ -2,45 +2,39 @@
     margin: 60px auto;
 }
 
-/* Styles for the image slider container */
 .image-slider {
     overflow: hidden;
-    /* Ensure that images outside the container are hidden */
-    white-space: nowrap;
-    /* Prevent images from wrapping */
     width: 100%;
-    /* Adjust the width as needed */
-    margin: 30px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-/* Styles for the images */
-.image-slider img {
-    display: inline-block;
-    /* Display images in a row */
-    width: 200px;
-    /* Adjust this based on your image dimensions */
-    height: auto;
+.slider-wrapper {
+    display: flex;
+    width: max-content;
+    animation: slide 15s linear infinite;
+}
+
+.slider-wrapper img {
+    width: 150px;
+    height:150px;
+    margin-top: 20px;
     margin-right: 30px;
-    /* Adjust the spacing between images */
-    animation: slide 10s linear infinite;
-    /* Adjust animation duration */
 }
 
-/* Keyframes for sliding animation */
 @keyframes slide {
-    0% {
+    from {
         transform: translateX(0);
     }
-
-    100% {
-        transform: translateX(calc(-100% * 6));
+    to {
+        transform: translateX(-50%);
     }
-
-    /* Adjust the number of images */
 }
 
-@media(max-width:900px) {
-    .image-slider img {
+@media (max-width: 900px) {
+    .slider-wrapper img {
         width: 100px;
+        height: 100px;
     }
 }
