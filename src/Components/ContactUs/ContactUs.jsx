@@ -5,7 +5,7 @@ const ContactUs = () => {
     return (
         <div className='container my-5'>
 
-            <form action="https://formspree.io/f/xwkglgyz" method='POST' className='contactForm'>
+            <form action="https://formspree.io/f/mjkgwdkb" method='POST' className='contactForm'>
                 <div><h2 className="text-center">Get In Touch</h2></div>
                 <hr className='contactFormHr' />
                 <div>
