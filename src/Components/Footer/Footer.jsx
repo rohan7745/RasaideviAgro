@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className="footer_social_icon"><a href="https://wa.me/918530879585" ><i className="fa-brands fa-whatsapp"></i></a></div>
                 <div className="footer_social_icon"><a href="https://www.instagram.com/omkar_prakash_desai?igsh=dnBpc3dhc3R0emg1"><i className="fa-brands fa-instagram"></i></a></div>
                 <div className="footer_social_icon"><a href="https://www.facebook.com/omkar.desai.1694?mibextid=ZbWKwL"><i className="fa-brands fa-facebook"></i></a></div>
-                <div className="footer_social_icon"><a href="mailto:vaibhav2082000@gmail.com"><i className="fa-regular fa-envelope"></i></a></div>
+                <div className="footer_social_icon"><a href="mailto:rasaideviagro9585@gmail.com"><i className="fa-regular fa-envelope"></i></a></div>
                 <div className="footer_social_icon"><a href="tel:8530879585"><i className="fa-solid fa-phone-volume"></i></a></div>
             </div>
             <hr className='bottom_hr' />

@@ -76,7 +76,6 @@ function MainCarousel() {
                 </div>
                 <div className="slide">
                     <img src={img7} alt="" className=' img-fluid' />
-                    <h2 className='Headline'>गावरान अंडी उपलब्ध</h2>
                 </div>
             </Slider>
 
