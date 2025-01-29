@@ -11,7 +11,6 @@ import p10_img from "../images/Gallery/ten.jpg";
 import p11_img from "../images/Gallery/eleven.jpg";
 import p12_img from "../images/Gallery/twelve.jpg";
 import p13_img from "../images/Gallery/thirteen.jpg";
-import p14_img from "../images/Gallery/fourteen.jpg";
 import p15_img from "../images/Gallery/fifteen.jpg";
 import p16_img from "../images/Gallery/sixteen.jpg";
 import p17_img from "../images/Gallery/seventeen.jpg";
@@ -28,6 +27,9 @@ import p26_img from '../images/Gallery/new-4.jpg'
 import p27_img from '../images/Gallery/new-6.jpg'
 import p28_img from '../images/Gallery/new-7.jpg'
 import p29_img from '../images/Gallery/new-8.jpg'
+import p30_img from '../images/Gallery/new10.jpg'
+import p31_img from '../images/Gallery/new11.jpg'
+import p32_img from '../images/Gallery/new-13.jpg'
 
 
 
@@ -173,7 +175,21 @@ let all_product = [
         imgsrc: p29_img,
         imgDescription: "गावरान अंडी",
     },
-
+    {
+        id: 30,
+        imgsrc: p30_img,
+        imgDescription: "",
+    },
+    {
+        id: 31,
+        imgsrc: p31_img,
+        imgDescription: "",
+    },
+    {
+        id: 32,
+        imgsrc: p32_img,
+        imgDescription: "",
+    },
     
 ];
 

@@ -13,7 +13,7 @@ const Footer = () => {
 
     return (
         <div className='Footer'>
-            <div className="logo">
+            <div className="logo-footer">
                 <h3>Rasaidevi Agro Productions</h3>
             </div>
             <hr className='logo_hr' />

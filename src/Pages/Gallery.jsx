@@ -6,6 +6,8 @@ import chicksVideo from '../Components/Assets/images/Gallery/chicksVideo.mp4'
 //new video
 import newVideo1 from '../Components/Assets/images/Gallery/new-5.mp4'
 import newVideo2 from '../Components/Assets/images/Gallery/new-9.mp4'
+import newVideo3 from '../Components/Assets/images/Gallery/new-12.mp4'
+
 
 
 const Gallery = () => {
@@ -47,6 +49,10 @@ const Gallery = () => {
                 </video>
                 <video height="300" controls>
                     <source src={newVideo2} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <video height="300" controls>
+                    <source src={newVideo3} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 

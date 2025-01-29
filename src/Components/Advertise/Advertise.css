@@ -22,7 +22,7 @@
     height: auto;
     margin-right: 30px;
     /* Adjust the spacing between images */
-    animation: slide 5s linear infinite;
+    animation: slide 10s linear infinite;
     /* Adjust animation duration */
 }
 
@@ -33,7 +33,7 @@
     }
 
     100% {
-        transform: translateX(calc(-100% * 3));
+        transform: translateX(calc(-100% * 6));
     }
 
     /* Adjust the number of images */

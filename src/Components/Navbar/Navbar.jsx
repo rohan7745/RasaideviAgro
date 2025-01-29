@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import { useRef } from 'react';
 import { Link } from "react-router-dom";
+import Logo from '../Assets/images/Gallery/logo.jpg'
 
 const Navbar = () => {
     const NavRef = useRef();
@@ -10,7 +11,10 @@ const Navbar = () => {
     }
     return (
         <header >
-            <h3>Rasaidevi Agro</h3>
+           <div className="left">
+           <img src={Logo} alt="" className='logo' />
+           <h3>Rasaidevi Agro</h3>
+           </div>
             <ul ref={NavRef} className='my-auto headerLinks'>
                 <li onClick={showNavbar}><Link to='/'>Home</Link></li>
                 <li onClick={showNavbar}><Link to='/products'>Products</Link></li>

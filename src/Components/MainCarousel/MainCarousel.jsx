@@ -7,6 +7,8 @@ import img1 from '../Assets/images/Carousel Images/Cs_one.jpg';
 import img2 from '../Assets/images/Carousel Images/Cs_two.jpg';
 import img3 from '../Assets/images/Carousel Images/Cs_three.jpg';
 import img4 from '../Assets/images/Carousel Images/Cs_four.jpg';
+import img5 from '../Assets/images/Carousel Images/pro-2.jpg'
+import img6 from '../Assets/images/Carousel Images/six.jpg'
 
 
 function MainCarousel() {
@@ -49,8 +51,16 @@ function MainCarousel() {
         <div className='carouselDiv'>
             <Slider {...settings}>
                 <div className="slide">
+                    <img src={img6} alt="" className=' img-fluid' /> 
+                    <h5 className='Headline'>SHRI RASAIDEVI AGRO PRODUCER COMPANY LTD, ASANDOLI, TAL-GAGANBAWDA, DIST-KOLHAPUR</h5>
+                </div>
+                <div className="slide">
                     <img src={img1} alt="" className=' img-fluid' />
                     <h1 id='CompanyName'>RasaiDevi Agro</h1>
+                </div>
+                <div className="slide">
+                    <img src={img5} alt="" className=' img-fluid' />
+                    <h2 className='Headline'>Brown Town Country Eggs</h2>
                 </div>
                 <div className="slide">
                     <img src={img2} alt="" className=' img-fluid' />

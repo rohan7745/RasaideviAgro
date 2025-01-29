@@ -9,7 +9,19 @@ header {
     box-shadow: 0 2px 4px rgba(40, 89, 239, 0.1);
     margin-bottom: 5px;
 }
-
+.left{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.logo{
+    margin-top: 5px;
+    height: 45px;
+    width: 45px;
+}
+.logo:hover{
+    transform: scale(110%);
+}
 .headerLinks li {
     margin: 0 1rem;
     text-decoration: none;
@@ -50,6 +62,7 @@ header .nav-btn {
     header .nav-btn {
         display: block;
         opacity: 1;
+        
     }
 
     header ul {

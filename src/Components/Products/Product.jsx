@@ -1,5 +1,7 @@
 import React from 'react';
 import './Product.css'
+import product1 from '../Assets/images/Product/product-1.jpg'
+import product2 from '../Assets/images/Product/product-2.jpg'
 
 const Product = () => {
 
@@ -8,7 +10,7 @@ const Product = () => {
             id: 1,
             name: 'Country eggs',
             price: 59.99,
-            image: 'https://assets.tendercuts.in/product/c/h/chk_cntry_egg-base.jpg',
+            image: product1,
             description: 'Brown town Eggs "The taste of gavran"',
         },
         {
@@ -20,14 +22,14 @@ const Product = () => {
         },
         {
             id: 3,
-            name: 'Little Chicks',
+            name: 'Little Gavran Chicks',
             price: 39.99,
-            image: 'https://media.istockphoto.com/id/503332432/photo/one-day-old-chickens.jpg?s=612x612&w=0&k=20&c=aEQR7mWnMe9jw6d75xBLglBciEZQjmjEHnbuAlz6qHU=',
+            image: product2,
             description: 'To start your own business. We help you with our little chicks.',
         },
         {
-            id: 3,
-            name: 'Fresh Chicken',
+            id: 4,
+            name: 'Fresh Gavran Chicken',
             price: 39.99,
             image: 'https://media.istockphoto.com/id/1282866808/photo/fresh-raw-chicken.jpg?s=612x612&w=0&k=20&c=QtfdAhdeIGpR3JUNDmYFo6cN0el8oYMcOXMQI7Qder4=',
             description: 'Chicken is such a food that is liked all over the world. We serve you a best quality." Chiken is the ultimate comfort food"',
@@ -40,18 +42,25 @@ const Product = () => {
             description: 'Rasaidevi Poultry Equipments Feeder eliminates feed wastage & it has three adjustment for controlling the feed level.',
         },
         {
-            id: 3,
+            id: 5,
             name: 'Poultry Cage',
             price: 39.99,
             image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRFSe2KeuukmCosSkjakvufam5rMqfPosWANYRSRa86gHswogt4qzSR0bq-cVya_RTdquvGG6Eg2nox9vBznAhvdS8b3tS5ekZSKKNqGJtsS01zuHlTyii7',
             description: 'A poultry cage is a structure designed to house and confine chickens or other poultry birds comfortably and securely.',
         },
         {
-            id: 3,
+            id: 6,
             name: 'Nipple drinkers',
             price: 39.99,
             image: 'https://images.meesho.com/images/products/158927754/ebugm_1200.jpg',
             description: 'Nipple drinkers are now the most used, often in conjunction with cups that catch spilled water to help reduce litter wetting.',
+        },
+        {
+            id: 6,
+            name: 'Rasaidevi Agro Gavran Feed',
+            price: 39.99,
+            image: 'https://media.istockphoto.com/id/913457000/photo/close-up-of-granulated-animal-food-texture.jpg?s=612x612&w=0&k=20&c=9CKVCynTFUqoKcexMlqTHsceQrCnJLw5zxvOqYzFfy4=',
+            description: 'Gavran poultry feed is a feed for poultry that comes in pellet or crumb form. It is available in different varieties. ',
         },
     ];
 
